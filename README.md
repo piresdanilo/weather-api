@@ -1,2 +1,2 @@
-# api-test-project
+# weather-api
 This website uses the Fetch method to connect with two APIs from <a href="https://openweathermap.org/" target="_blank">OpenWeather</a> to show this information. The first is Geocoding, which allows us to get geographical coordinates data by using the location (name of the city) inserted by the user. The second, Current Weather, allow us to access the current weather data of over 200.000 cities.
