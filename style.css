@@ -1,0 +1,58 @@
+
+body {
+    background-color: rgb(196, 196, 196);
+    font: normal 15pt;
+    font-family: 'Raleway', sans-serif;
+    
+}
+header {
+    color: cornsilk;
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 20px;
+}
+section {
+    background-color: cornsilk;
+    text-align: center;
+    min-height: 250px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a {
+    color: rgb(56, 56, 56);
+}
+a:hover{
+    color: grey;
+}
+
+#instruction {
+    font-size: 12pt;
+}
+
+input{
+    width: 180px;
+    height: 20px;
+}
+#mainButton {
+    width: 150px;
+    height: 27px;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: rgb(236, 236, 125);
+}
+#mainButton:hover {
+    background-color: aliceblue;
+}
+
+footer {
+    color: cornsilk;
+    text-align: center;
+    font-style: italic;
+    font-size: 12pt;
+}

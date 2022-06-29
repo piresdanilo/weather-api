@@ -1,0 +1,2 @@
+# api-test-project
+This little exercise was created to practice the Fetch method. In this exercise, the site uses Fetch to get the data from the API JSONPlaceholder and inserts the data in the list below.
