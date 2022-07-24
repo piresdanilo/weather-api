@@ -30,7 +30,7 @@ function getWeatherData(){
         fetch(urlToGetWeather)
         .then((response) => response.json())
         .then((data) => {
-            const message = `It is currently ` + data.main.temp + `°C in ${inputData.value}`
+            const message = `It is currently <span>` + data.main.temp + `</span>°C in ${inputData.value}`
             p.innerHTML = message;
         })
         
